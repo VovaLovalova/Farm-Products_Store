@@ -1,0 +1,35 @@
+.about-wrapper {
+  background-color: #d8ecfe;
+  margin: 0;
+  padding: 0;
+  min-height: 600px;
+  box-sizing: border-box;
+  padding: 183px 553px 183px 90px;
+  position: relative;
+}
+
+.about__title {
+  margin-bottom: 24px;
+}
+
+.about__text {
+  width: 538px;
+}
+
+.about__img {
+  position: absolute;
+  top: 68px;
+  right: 172px;
+  z-index: 2;
+}
+
+.about-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 446px;
+  height: 446px;
+  border-radius: 50%;
+  background-color: #c4e2ff;
+  top: 80px;
+  right: 72px;
+}

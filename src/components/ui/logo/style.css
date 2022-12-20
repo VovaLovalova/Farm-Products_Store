@@ -1,0 +1,11 @@
+.logo__link {
+  display: flex;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #333333;
+}
+
+.logo__img {
+  margin-right: 28px;
+}

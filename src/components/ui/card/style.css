@@ -1,0 +1,30 @@
+.card-wrapper {
+  width: 540px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #e1edce;
+}
+
+.card-wrapper--green {
+  background-color: #e1edce;
+}
+
+.card-wrapper--red {
+  background-color: #f8ddd7;
+}
+
+.card-row {
+  display: flex;
+}
+
+.card__img {
+  margin-right: 22px;
+}
+
+.card-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
